@@ -3,12 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PokemonSimpleComponent } from "./components/pokemon-simple-component/pokemon-simple-component";
-import { PruebasComponent } from './components/pruebas/pruebas.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, PokemonSimpleComponent, PruebasComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, PokemonSimpleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

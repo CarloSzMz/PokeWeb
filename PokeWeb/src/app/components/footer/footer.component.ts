@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './footer.component.html',
 })
 export class FooterComponent {}

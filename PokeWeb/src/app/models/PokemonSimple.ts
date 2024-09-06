@@ -1,6 +1,7 @@
 export interface PokemonSimple{
     name: string;
     url: string;
+    sprites: PokemonSprites;
 }
 
 export interface PokemonList {
@@ -9,3 +10,9 @@ export interface PokemonList {
     previous: string | null;
     results: PokemonSimple[];
   }
+
+  export interface PokemonSprites {
+    front_default: string;
+    back_default: string;
+    [key: string]: string | null;
+}
