@@ -1,11 +1,11 @@
 import { Routes } from '@angular/router';
-import { PokemonSimpleComponent } from './components/pokemon-simple-component/pokemon-simple-component';
-import { AppComponent } from './app.component';
+import { PokemonSimpleComponent } from './views/components/pokemon-simple/pokemon-simple-component';
+import { InicioComponent } from './views/components/inicio/inicio.component';
 
 export const routes: Routes = [
   {
     path: '',
-    component: AppComponent,
+    component: InicioComponent,
   },{
     path: 'pokemons',
     component: PokemonSimpleComponent,

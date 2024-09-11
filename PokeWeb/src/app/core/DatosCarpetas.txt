@@ -1,0 +1,5 @@
+DATOS DE LA CARPETA
+
+INTERCEPTORS: Aquí van las clases de tipo interceptor que podemos usar para modificar las peticiones que salen desde aplicación.
+
+SERVICES: Aquí guardamos los servicios que usamos para encapsular la lógica de nuestra aplicación. 

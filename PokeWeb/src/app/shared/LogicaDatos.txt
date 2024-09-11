@@ -1,0 +1,15 @@
+LOGICA ESTRUCTURA DE CARPETAS.
+
+SHARED: Esta carpeta contendrá todo lo relacionado a cosas que se usaran de forma global y serán reutilizadas y compartidas dentro de la app. La idea es separar lógicas y tener bien dividida las tareas de cada uno.
+
+CLASS: Acá irán todos los archivos de tipo clase que podrás ocupar dentro de la carpeta SHARED, la cual te ayudarán a encapsular lógicas para luego poder ocuparlas, estos archivos deben tener estricta relación a la carpeta padre, en este caso SHARED.
+
+COMPONENTS: Acá irán todos los componentes que tengan estricta relación a la carpeta padre, en este caso SHARED.
+
+HELPERS: Acá irán todos los servicios en donde solo deben contener funciones estáticas o variables para su uso puntual dentro de la SPA, estos archivos deben tener estricta relación a la carpeta padre, en este caso SHARED.
+
+MODELS: Acá irán todos las interfaces que tengan relación solo a la carpeta padre, en este caso SHARED
+
+pipes: Acá irán todos pipes que serán utilizadas dentro de la carpeta padre, en este caso SHARED, recordemos que los pipes permiten transformar visualmente la información dentro del DOM.
+
+SERVICES: Acá irán todas las clases de tipo service que encapsularán la lógica de modelos de datos, el formato de datos y las peticiones al servicios, estos serán inyectables en los componentes relacionados a la carpeta padre, en este caso SHARED.

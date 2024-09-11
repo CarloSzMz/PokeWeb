@@ -1,0 +1,13 @@
+Uso las carpetas->
+
+CLASS: Aquí irán todos los archivos de tipo clase que podrás ocupar dentro de la carpeta AUTH, la cual te ayudarán a encapsular lógicas para luego poder ocuparlas, estos archivos deben tener estricta relación a la carpeta padre, en este caso AUTH.
+
+COMPONENTS: Aquí van los componentes
+
+HELPERS: Aquí irán todos los servicios en donde solo deben contener funciones estáticas o variables para su uso puntual dentro de la SPA, estos archivos deben tener estricta relación a la carpeta padre, en este caso AUTH.
+
+MODELS-> Aquí van los modelos.
+
+PIPES: Aquí  irán todos las interfaces que tengan relación solo a la carpeta padre, en este caso AUTH.
+
+SERVICES: Aquí irán todas las clases de tipo service que encapsularán la lógica de modelos de datos, el formato de datos y las peticiones al servicios, estos serán inyectables en los componentes relacionados a la carpeta padre, en este caso AUTH.

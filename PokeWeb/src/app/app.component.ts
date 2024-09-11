@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
+import { PokemonSimpleComponent } from './views/components/pokemon-simple/pokemon-simple-component';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { PokemonSimpleComponent } from "./components/pokemon-simple-component/pokemon-simple-component";
+import { HeaderComponent } from './shared/components/header/header.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, PokemonSimpleComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

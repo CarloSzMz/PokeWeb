@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PokemonSimpleServiceService } from '../../services/pokemon-simple-service.service';
-import { RouterOutlet } from '@angular/router';
+import { ActivatedRoute, Router, RouterOutlet } from '@angular/router';
 import { PokemonList, PokemonSimple } from '../../models/PokemonSimple';
-import { HttpClient } from '@angular/common/http';
-import { NgFor } from '@angular/common';
+import { PokemonSimpleServiceService } from '../../services/pokemon-simple/pokemon-simple-service.service';
 
 @Component({
   selector: 'app-pokemon-simple-component',
@@ -15,7 +13,7 @@ export class PokemonSimpleComponent implements OnInit {
 
   pokemons: PokemonSimple[] = [];
 
-  constructor(private pokemonSimpleService: PokemonSimpleServiceService){}
+  constructor(private pokemonSimpleService: PokemonSimpleServiceService, private route: ActivatedRoute, private router: Router){}
 
   ngOnInit():void {
     this.loadPokemons();
