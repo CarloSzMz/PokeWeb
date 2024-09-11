@@ -1,9 +1,10 @@
-export interface PokemonSimple{
-    name: string;
-    url: string;
-    sprites: PokemonSprites;
-}
+import { PokemonSprites } from "./pokemonSprites";
 
+export interface PokemonSimple {
+  name: string;
+  url: string;
+  sprites: PokemonSprites;
+}
 export interface PokemonList {
     count: number;
     next: string | null;
@@ -11,8 +12,3 @@ export interface PokemonList {
     results: PokemonSimple[];
   }
 
-  export interface PokemonSprites {
-    front_default: string;
-    back_default: string;
-    [key: string]: string | null;
-}
