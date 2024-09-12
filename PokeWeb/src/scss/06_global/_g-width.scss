@@ -28,3 +28,52 @@
         width: #{$value}px;
     }
   }
+
+  // con max-width
+  @for $i from 1 through 100 {
+    .g-max-width-px-#{$i} {
+      max-width: #{$i}px;
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-max-width-px-#{$value} {
+        max-width: #{$value}px;
+    }
+  }
+
+  // con min-width
+  @for $i from 1 through 100 {
+    .g-min-width-#{$i}{
+      min-width: #{$i}+'%';
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-min-width-#{$value} {
+        min-width: #{$value}+'%';
+    }
+  }
+
+  // con min-width
+  @for $i from 1 through 100 {
+    .g-min-width-px-#{$i} {
+      min-width: #{$i}px;
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-min-width-px-#{$value} {
+        min-width: #{$value}px;
+    }
+  }
+
+  .g-auto-width {
+    width: auto;
+  }
+
+
+  // con auto width
+  .g-auto-width {
+    width: auto;
+  }

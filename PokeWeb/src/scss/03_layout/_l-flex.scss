@@ -1,0 +1,72 @@
+.l-dflex {
+    display: flex;
+  
+    // Direcciones
+    &--row {
+      flex-direction: row;
+    }
+  
+    &--column {
+      flex-direction: column;
+    }
+  
+    // Alineación horizontal
+    &--center {
+      justify-content: center;
+    }
+  
+    &--start {
+      justify-content: flex-start;
+    }
+  
+    &--end {
+      justify-content: flex-end;
+    }
+  
+    &--between {
+      justify-content: space-between;
+    }
+  
+    &--around {
+      justify-content: space-around;
+    }
+  
+    // Alineación vertical
+    &--align-center {
+      align-items: center;
+    }
+  
+    &--align-start {
+      align-items: flex-start;
+    }
+  
+    &--align-end {
+      align-items: flex-end;
+    }
+  
+    // Flex wrap
+    &--wrap {
+      flex-wrap: wrap;
+    }
+  
+    &--nowrap {
+      flex-wrap: nowrap;
+    }
+  
+    @each $breakpoint, $valueBreakpoint in $breakpoints {
+      @media (min-width: $valueBreakpoint) {
+        &--row\@#{$breakpoint} {
+          flex-direction: row;
+        }
+  
+        &--column\@#{$breakpoint} {
+          flex-direction: column;
+        }
+  
+        &--center\@#{$breakpoint} {
+          justify-content: center;
+        }
+      }
+    }
+  }
+  

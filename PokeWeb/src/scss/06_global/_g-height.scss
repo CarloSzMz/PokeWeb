@@ -13,13 +13,96 @@
 
 //CON PX
 @for $i from 1 through 100{
-    .g-height-#{$i}px{
+    .g-height-px-#{$i}{
         height: #{$i}px;
 }}
 
 
 @mixin custom-radius($value) {
-    .g-height-#{$value}px {
+    .g-height-px-#{$value} {
         height: #{$value}px;
     }
   }
+
+  @for $i from 1 through 100{
+    .g-height-vh-#{$i}{
+        height: #{$i}vh;
+    }}
+
+
+  @mixin custom-radius($value) {
+    .g-height-vh-#{$value} {
+        height: #{$value}vh;
+    }
+  }
+
+  // con max-height
+  @for $i from 1 through 100 {
+    .g-max-height-px-#{$i} {
+      max-height: #{$i}px;
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-max-height-px-#{$value} {
+        max-height: #{$value}px;
+    }
+  }
+
+    // con max-height
+    @for $i from 1 through 100 {
+        .g-max-height-vh-#{$i} {
+            max-height: #{$i}vh;
+        }
+    }
+
+    @mixin custom-radius($value) {
+        .g-max-height-vh-#{$value} {
+            max-height: #{$value}vh;
+        }
+    }
+
+    // con min-height
+    @for $i from 1 through 100 {
+        .g-min-height-vh-#{$i} {
+            min-height: #{$i}vh;
+        }
+    }
+
+    @mixin custom-radius($value) {
+        .g-min-height-vh-#{$value} {
+            min-height: #{$value}vh;
+        }
+    }
+
+  // con min-height
+  @for $i from 1 through 100 {
+    .g-min-height-px-#{$i}px {
+      min-height: #{$i}px;
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-min-height-px-#{$value}px {
+        min-height: #{$value}px;
+    }
+  }
+
+  @for $i from 1 through 100 {
+    .g-min-height-#{$i} {
+      min-height: #{$i}+'%';
+    }
+  }
+
+  @mixin custom-radius($value) {
+    .g-min-height-#{$value} {
+        min-height: #{$value}+'%';
+    }
+  }
+
+  .g-height-auto {
+    height: auto;
+  }
+
+
+  

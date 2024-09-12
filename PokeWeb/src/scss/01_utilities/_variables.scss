@@ -27,7 +27,7 @@ $g-color-dark-green: #006809;
 $g-color-green: #008000;
 $g-color-light-blue: #85f3f3;
 $g-color-dark-blue: #0000ff;
-$g-color-blue: #0000ff;
+$g-color-blue: #01012e;
 $g-color-yellow: #FEF9C8;
 $g-color-dark-yellow: #E4F945;
 $g-color-light-yellow: #FEF9C8;
@@ -48,8 +48,8 @@ $g-color-dark-cyan: #f3b8d1;
 $g-color-cyan: #f3b8d1;
 
 
-$margins: 0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px;
-$paddings: 0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px;
+$margins: 0, 4, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128, 160, 192, 224, 256, 320, 480, 640;
+$paddings: 0, 4, 6, 8, 10, 12, 16, 20, 24, 32, 40, 48, 64, 80, 96, 128, 160, 192, 224, 256, 320, 480, 640;
 
 $breakpoints:(
   'tablet':900px,

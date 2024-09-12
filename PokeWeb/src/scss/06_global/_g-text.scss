@@ -1,0 +1,44 @@
+.g-text-center {
+  text-align: center;
+}
+
+.g-text-left {
+  text-align: left;
+}
+
+.g-text-right {
+  text-align: right;
+}
+
+.g-text-justify {
+  text-align: justify;
+}
+
+.g-text-uppercase {
+  text-transform: uppercase;
+}
+
+.g-text-lowercase {
+  text-transform: lowercase;
+}
+
+.g-text-capitalize {
+  text-transform: capitalize;
+}
+
+.g-text-nowrap {
+  white-space: nowrap;
+}
+
+.g-text-break {
+  word-break: break-all;
+}
+
+.g-link {
+  text-decoration: none;
+  
+    &--blue:hover {
+    color: $g-color-light-blue;
+    transition: color 0.3s;
+  }
+}
