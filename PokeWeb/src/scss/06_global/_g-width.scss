@@ -1,0 +1,30 @@
+
+
+@for $i from 1 through 100 {
+    .g-width-#{$i} {
+      width: #{$i}+'%';
+    }
+  }
+
+
+@mixin custom-radius($value) {
+    .g-width-#{$value} {
+        width: #{$value}+'%';
+    }
+  }
+
+
+//CON PX
+
+@for $i from 1 through 100 {
+    .g-width-#{$i}px {
+      width: #{$i}px;
+    }
+  }
+
+
+@mixin custom-radius($value) {
+    .g-width-#{$value}px {
+        width: #{$value}px;
+    }
+  }

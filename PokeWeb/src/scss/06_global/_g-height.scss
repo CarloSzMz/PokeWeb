@@ -1,0 +1,25 @@
+@for $i from 1 through 100{
+    .g-height-#{$i}{
+        height: #{$i}+'%';
+}}
+
+
+@mixin custom-radius($value) {
+    .g-height-#{$value} {
+        height: #{$value};
+    }
+  }
+
+
+//CON PX
+@for $i from 1 through 100{
+    .g-height-#{$i}px{
+        height: #{$i}px;
+}}
+
+
+@mixin custom-radius($value) {
+    .g-height-#{$value}px {
+        height: #{$value}px;
+    }
+  }

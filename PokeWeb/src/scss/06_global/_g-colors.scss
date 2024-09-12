@@ -1,0 +1,19 @@
+@each $name, $color in $colores-individuales {
+    .g-bg--#{$name} {
+      background-color: $color;
+    }
+  }
+  
+  // Genera clases para el color de texto
+  @each $name, $color in $colores-individuales {
+    .g-color--#{$name} {
+      color: $color;
+    }
+  }
+  
+  // Genera clases para el color de borde
+  @each $name, $color in $colores-individuales {
+    .g-border--#{$name} {
+      border-color: $color;
+    }
+  }

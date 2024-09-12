@@ -1,0 +1,11 @@
+@for $i from 1 through 100{
+    .g-border-radius-#{$i}{
+        border-radius: #{$i}px;
+}}
+
+
+@mixin custom-radius($value) {
+    .g-radius-#{$value} {
+      border-radius: #{$value}px;
+    }
+  }

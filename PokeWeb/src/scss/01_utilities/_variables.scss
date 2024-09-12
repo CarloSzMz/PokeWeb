@@ -9,19 +9,47 @@ $colors: (
         "yellows": (#FEF9C8, #FEF08A, #FDE047, #FACC15, #E9B814, #D4A013, #B7830F, #975A16, #7C421F, #e0e0c5)
 );
 
-$g-color-backgroundId: #e0e0c5;
-$g-color-backgroundDesplegable: #9A5A2C;
+$g-color-backgroundPurple: #30293C;
 $g-color-White: #fff;
-$g-color-backgroundTheme: #7B4623;
-$g-color-backgroundLightBrown: #e0e0c5;
 $g-color-Black: #000000;
-$g-color-lightOrange: #FFDAB9;
-
+$g-color-yellow: #E4F945;
+$g-color-primary: #30293C;
+$g-color-alternative: #e7cf6d;
+$g-color-grey: #383838;
+$g-color-light-grey: #f0f0f0;
+$g-color-dark-grey: #383838;
+$g-color-white: #fff;
+$g-color-light-red: #c46565;
+$g-color-dark-red: rgb(87, 30, 30);
+$g-color-red: #ff0000;
+$g-color-light-green: #85f38e;
+$g-color-dark-green: #006809;
+$g-color-green: #008000;
+$g-color-light-blue: #85f3f3;
+$g-color-dark-blue: #0000ff;
+$g-color-blue: #0000ff;
+$g-color-yellow: #FEF9C8;
+$g-color-dark-yellow: #E4F945;
+$g-color-light-yellow: #FEF9C8;
+$g-color-light-purple: #30293C;
+$g-color-dark-purple: #30293C;
+$g-color-purple: #30293C;
+$g-color-light-orange: #f3b85f;
+$g-color-dark-orange: #f3b85f;
+$g-color-orange: #f3b85f;
+$g-color-light-pink: #f3b8d1;
+$g-color-dark-pink: #f3b8d1;
+$g-color-pink: #f3b8d1;
+$g-color-light-brown: #f3b8d1;
+$g-color-dark-brown: #f3b8d1;
+$g-color-brown: #f3b8d1;
+$g-color-light-cyan: #f3b8d1;
+$g-color-dark-cyan: #f3b8d1;
+$g-color-cyan: #f3b8d1;
 
 
 $margins: 0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px;
 $paddings: 0px, 4px, 6px, 8px, 10px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px, 80px, 96px, 128px, 160px, 192px, 224px, 256px, 320px, 480px, 640px;
-
 
 $breakpoints:(
   'tablet':900px,
@@ -29,3 +57,38 @@ $breakpoints:(
   'fulldesktop':1500px
 );
 
+$colores-individuales: (
+  "primary": $g-color-primary,
+  "alternative": $g-color-alternative,
+  "grey": $g-color-grey,
+  "light-grey": $g-color-light-grey,
+  "dark-grey": $g-color-dark-grey,
+  "white": $g-color-white,
+  "light-red": $g-color-light-red,
+  "dark-red": $g-color-dark-red,
+  "red": $g-color-red,
+  "light-green": $g-color-light-green,
+  "dark-green": $g-color-dark-green,
+  "green": $g-color-green,
+  "light-blue": $g-color-light-blue,
+  "dark-blue": $g-color-dark-blue,
+  "blue": $g-color-blue,
+  "yellow": $g-color-yellow,
+  "dark-yellow": $g-color-dark-yellow,
+  "light-yellow": $g-color-light-yellow,
+  "light-purple": $g-color-light-purple,
+  "dark-purple": $g-color-dark-purple,
+  "purple": $g-color-purple,
+  "light-orange": $g-color-light-orange,
+  "dark-orange": $g-color-dark-orange,
+  "orange": $g-color-orange,
+  "light-pink": $g-color-light-pink,
+  "dark-pink": $g-color-dark-pink,
+  "pink": $g-color-pink,
+  "light-brown": $g-color-light-brown,
+  "dark-brown": $g-color-dark-brown,
+  "brown": $g-color-brown,
+  "light-cyan": $g-color-light-cyan,
+  "dark-cyan": $g-color-dark-cyan,
+  "cyan": $g-color-cyan
+);
